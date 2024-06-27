@@ -1,0 +1,32 @@
+.header {
+    display: flex;
+    background-color: rgb(52, 139, 52);
+    color: white;
+    padding: 16px;
+    justify-content: space-between;
+
+    span {
+        display: flex;
+        align-items: center;
+    }
+}
+
+.headerLinks {
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    margin-right: 2em;
+}
+
+.headerLinks a:link,
+.headerLinks a:visited,
+.headerLinks a:hover,
+.headerLinks a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.primaryContainer{
+    padding: 4px;
+    background-color: rgb(211, 238, 247);
+}
